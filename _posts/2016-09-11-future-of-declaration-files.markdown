@@ -1,18 +1,20 @@
 ---
+layout: single
 title: "Future of Declaration Files"
 date: 2016-09-11 11:15:37 +0200
 comments: true
 categories:
   - TypeScript
-  - typings
   - Angular2
 tags:
   - typings
 ---
+{% include toc icon="gears" title="Contents" %}
+
 When I have started to use TypeScript I have looked at [Definitely Typed](http://definitelytyped.org/) to see how many  people where writing declaration files (`.d.ts`) and then [guidelines from Microsoft](https://typescript.codeplex.com/wikipage?title=Writing%20Definition%20%28.d.ts%29%20Files) to see how to do it. There was then the utility [tsd](https://github.com/DefinitelyTyped/tsd), but now many stuff has changed.
 
-<!-- more -->
 ## Evolution at Glance
+
 ### TSD Package Manager
 
 >TSD is a package manager to search and install TypeScript definition files directly from the community driven >DefinitelyTyped repository.
@@ -57,7 +59,7 @@ Really a good news! we can rid off some extra entities in our project such as:
 - configure `tsconfig.json` to exclude files from `typings` folder;
 - the famous `///reference` at the beginning of each `.ts` file.
 
-#### Usage
+## Usage
 Very simple:
 ```bash
 npm install --save @types/lodash
@@ -70,7 +72,7 @@ npm install --save @types/lodash
 
 No more additional configuration or references at the beginning of each file.
 
-#### Type Search
+### Type Search
 Please refer to [TypeSearch](http://microsoft.github.io/TypeSearch/) search engine to find a type definition and how to install it via `npm`.
 
 At first sight I could say the project is cleaner, less utilities and, may be, a more consistent way to manage `.d.ts` files. I hope a definitive path has been defined (at least for a couple of years) in order to have all the dependencies centralized in one place.
