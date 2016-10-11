@@ -2,7 +2,12 @@
 title: "Future of Declaration Files"
 date: 2016-09-11 11:15:37 +0200
 comments: true
-categories: TypeScript, typings, Angular2
+categories:
+  - TypeScript
+  - typings
+  - Angular2
+tags:
+  - typings
 ---
 When I have started to use TypeScript I have looked at [Definitely Typed](http://definitelytyped.org/) to see how many  people where writing declaration files (`.d.ts`) and then [guidelines from Microsoft](https://typescript.codeplex.com/wikipage?title=Writing%20Definition%20%28.d.ts%29%20Files) to see how to do it. There was then the utility [tsd](https://github.com/DefinitelyTyped/tsd), but now many stuff has changed.
 
