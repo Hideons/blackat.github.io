@@ -9,6 +9,7 @@ When I have started to use TypeScript I have looked at [Definitely Typed](http:/
 <!-- more -->
 ## Evolution at Glance
 ### TSD Package Manager
+
 >TSD is a package manager to search and install TypeScript definition files directly from the community driven >DefinitelyTyped repository.
 >
 ><cite>[TSD](https://github.com/DefinitelyTyped/tsd)</cite>
