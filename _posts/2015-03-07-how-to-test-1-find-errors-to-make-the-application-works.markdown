@@ -96,7 +96,7 @@ The application is mainly composed by a fake [Cloud Service](https://github.com/
 7. The list of active tasks will be then processed by a thread pool.
 
 ### How to initiliaze the service and run it
-``` java RunMeWorking.java https://github.com/blackat/tutorial-howtotest-1-collectors/blob/master/exercise-working/src/main/java/com/contrastofbeauty/tutorial/RunMeWorking.java
+``` java
 public class RunMeWorking {
 
     public static void main(String[] args) {
